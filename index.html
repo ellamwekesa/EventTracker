@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>  
+
+<body>
+
+    <header>
+        <h1>My Event Tracker</h1>
+        <p>Keep track of your memorable events and experiences!</p>
+    </header>
+
+    <form id="event-form">
+        <label for="season">Select the season of the year:</label>
+        <select id="season" required>
+            <option value="">Select</option>
+            <option value="Spring">Spring</option>
+            <option value="Summer">Summer</option>
+            <option value="Autumn">Autumn</option>
+            <option value="Winter">Winter</option>
+        </select>
+
+        <label for="event-name">Place Visited:</label>
+        <input type="text" id="event-name" placeholder="Enter place visited" required>
+
+        <label for="location">Location:</label>
+        <input type="text" id="location" placeholder="Enter location" required>
+
+        <label for="landmarks">Landmarks:</label>
+        <input type="text" id="landmarks" placeholder="Spotted any landmarks?" required>
+
+        <button type="submit">Add to your list!</button>
+    </form>
+
+    <!-- THIS WAS MISSING -->
+    <ul id="event-list"></ul>
+
+    <footer>
+        <p><em>&copy; My Event Tracker. All rights reserved.</em></p>
+    </footer>
+
+    <!-- Script should be at the bottom -->
+    <script src="script.js"></script>
+
+</body>
+</html>
+
