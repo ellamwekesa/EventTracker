@@ -1,0 +1,25 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 50px;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/035/455/542/non_2x/ai-generated-a-group-of-young-people-dancing-and-laughing-together-in-a-packed-nightclub-free-photo.jpg');
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input, button {
+    padding: 5px;
+    font-size: 16px;
+}
+
+button {
+    cursor: pointer;
+}
